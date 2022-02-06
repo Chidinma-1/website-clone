@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(241, 239, 239);
+  background-size: contain;
+}
+.container{
+    display: flex;
+}
+.desc-container {
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.header ul{
+  display: flex;
+  list-style:none;
+}
+
+.header a{
+  text-decoration: none;
+  font: 8px;
+  font-weight: medium;
+}
+
+.header-list1{
+  margin-right: 20px;
+  color: grey;
+}
+
+.header-list2{
+  color: grey;
+  margin-right: 20px;
+}
+
+.main p{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+div + a {
+  font-size: 700;
+  font-weight: bold;
+  color:black;
+
+}
+
+.header-list1 a{
+  color: grey;
+}
+
+
+.header-list2 a{
+  color: grey;
+}
+.header-link:hover {
+  background-color:rgb(241, 239, 239);
+  color: black;
+  transition: all 800ms linear;
+}
+/* .header-link2:hover {
+  background-color: orange;
+  transition: all 500ms ease-in;
+} */
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  /* to remove spacing set font-size=0 */
+    font-size: 0;
+    padding: 25px;
+      /* padding: 30px 20px 30px 20px; */
+}
+/* 
+.image-container-one:hover{
+  
+} */
+
+/* 
+.image-one{
+  display: block;
+} */
+.image-container-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image-container-three{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-container-four{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-container-five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  text-indent: 3px;
+}
+.footer p{
+  color: grey;
+}
+.footer a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
